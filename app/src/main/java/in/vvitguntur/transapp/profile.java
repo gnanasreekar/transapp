@@ -15,7 +15,4 @@ public class profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
     }
 
-    public void submit(View view) {
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-    }
 }
